@@ -20,6 +20,8 @@ app.post('/', async (req,res)=>{
         }
     })
     res.json({
+
+        
         "message": "Post request received"
     })
 })
